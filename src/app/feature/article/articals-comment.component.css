@@ -1,0 +1,59 @@
+/* comment-card.styles.css */
+
+.card {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    margin-bottom: 15px;
+    border: 1px solid #ddd; /* Border color */
+  
+    /* Box shadow for a subtle lift effect */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-block {
+    padding: 15px;
+  }
+  
+  .card-text {
+    margin: 0; /* Remove default margin for paragraphs */
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-top: 1px solid #ddd; /* Border color for footer */
+  
+    /* Optional: Add space between elements in the footer */
+    gap: 10px;
+  }
+  
+  .comment-author-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  
+  .comment-author {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .comment-author:hover {
+    text-decoration: underline;
+  }
+  
+  .date-posted {
+    margin-left: auto; /* Push to the right side of the container */
+  }
+  
+  .mod-options i {
+    cursor: pointer;
+    color: #007bff; /* Blue color for the delete button */
+  }
+  
+  .mod-options i:hover {
+    text-decoration: underline;
+  }
+  

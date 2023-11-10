@@ -1,0 +1,77 @@
+.page-link {
+    cursor: pointer;
+  }
+/* Reset some default margin and padding */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5; /* Facebook-like background color */
+}
+
+/* Article Preview styles */
+.app-article-preview {
+  background-color: #fff; /* White background for article preview */
+  border: 1px solid #dddfe2; /* Border color */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading and No Articles styles */
+.article-preview {
+  background-color: #fff; /* White background color */
+  border: 1px solid #dddfe2; /* Border color */
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.page-item {
+  margin-right: 5px;
+}
+
+.page-link {
+  background-color: #1877f2; /* Facebook blue color for page links */
+  color: #fff; /* White text color */
+  border: 1px solid #1877f2; /* Border color */
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.page-link:hover {
+  background-color: #11569b; /* Slightly darker blue on hover */
+}
+
+.page-link.active {
+  background-color: #11569b; /* Darker blue for the active page */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .pagination {
+    flex-wrap: wrap;
+  }
+
+  .page-item {
+    margin-bottom: 5px;
+  }
+}

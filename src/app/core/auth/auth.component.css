@@ -1,0 +1,75 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.auth-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 600px;
+}
+
+.text-xs-center {
+  text-align: center;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary:disabled {
+  background-color: #b0c4de;
+  cursor: not-allowed;
+}
+
+/* Error message styles */
+.app-list-errors {
+  color: #dc3545;
+  margin-bottom: 20px;
+}
+
+/* Optional: Add some responsive styles */
+@media (max-width: 768px) {
+  .col-md-6 {
+    width: 100%;
+  }
+}

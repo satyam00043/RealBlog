@@ -1,0 +1,105 @@
+
+.article-page {
+    background-color: #f0f2f5; /* Light gray background */
+    color: #000; /* Black text */
+  }
+  
+  .banner {
+    background-color: #4267b2; /* Facebook blue */
+    color: #fff; /* White text */
+    padding: 40px 0;
+  }
+  
+  .container {
+    max-width: 1200px; /* Adjust to your preferred maximum width */
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  }
+  
+  .article-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .tag-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .tag-default {
+    background-color: #f0f2f5; /* Light gray background for tags */
+    color: #000; /* Black text for tags */
+    border-radius: 20px;
+    padding: 8px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  .comment-form {
+    margin-top: 20px;
+  }
+  
+  .comment-author-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Beautiful Facebook-like Comment Styling */
+  .card.comment-form {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card.comment-form textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+  }
+  
+  .card.comment-form .card-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card.comment-form button {
+    margin-left: auto;
+    background-color: #4267b2; /* Facebook blue */
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .card.comment-form button:hover {
+    background-color: #2a4b7c; /* Slightly darker blue on hover */
+  }
+  
+  .comment-actions {
+    margin-top: 20px;
+  }
+  
+  .comment-actions button {
+    background-color: transparent;
+    border: none;
+    color: #777; /* Gray text for comment actions */
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .comment-actions button:hover {
+    text-decoration: underline;
+  }
+  
+  
+  

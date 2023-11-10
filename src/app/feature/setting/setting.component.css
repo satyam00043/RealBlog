@@ -1,0 +1,97 @@
+/* Reset some default margin and padding */
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5; /* Facebook-like background color */
+}
+
+/* Settings Page styles */
+.settings-page {
+  padding: 40px 0;
+}
+
+/* Container styles */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Form styles */
+form {
+  margin-top: 20px;
+}
+
+/* Fieldset styles */
+fieldset {
+  margin-bottom: 20px;
+}
+
+/* Input and textarea styles */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-lg {
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: #1877f2; /* Facebook blue color for primary button */
+  color: #fff; /* White text color */
+  border: none;
+}
+
+.btn-outline-danger {
+  background-color: transparent;
+  color: #ff0000; /* Red color for outline danger button */
+  border: 1px solid #ff0000;
+}
+
+/* Button Hover Effect */
+.btn:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Logout button styles */
+.btn-outline-danger:hover {
+  background-color: #ff0000;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .col-md-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,64 @@
+/* home-page.styles.css */
+
+.home-page {
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+}
+
+.banner {
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 1200px; /* Adjust to your preferred maximum width */
+  margin: 0 auto;
+}
+
+.logo-font {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.page {
+  padding: 20px 0;
+}
+
+.feed-toggle {
+  margin-bottom: 20px;
+}
+
+.nav-pills .nav-link {
+  border-radius: 20px;
+  margin-right: 10px;
+  padding: 10px 20px;
+}
+
+
+
+.tag-list {
+  margin-top: 10px;
+}
+
+.tag-default {
+  background-color: #eee; /* Light gray background for tags */
+  color: #000; /* Black text for tags */
+  border-radius: 20px;
+  padding: 8px 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tag-default:hover {
+  background-color: #ddd; /* Slightly darker gray on hover */
+}
+
+.sidebar {
+  background-color: #f8f9fa; /* Light gray background for the sidebar */
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Add styles for beautiful text blog after clicking on Global Feed here */
+

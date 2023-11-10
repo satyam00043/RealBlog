@@ -1,0 +1,54 @@
+/* Additional styles for dark theme */
+.dark-theme {
+    background-color: #18191a; /* Dark background color for the body */
+    color: #ffffff; /* White text color */
+  }
+  
+  .navbar {
+    background-color: #1877f2; /* Facebook blue color for navbar */
+  }
+  
+  .navbar-brand {
+    color: #ffffff; /* White text color for brand */
+  }
+  
+  .navbar-toggler {
+    background-color: #3b5998; /* Facebook blue color for toggler */
+  }
+  
+  /* Toggle button styling */
+  .navbar-toggler-icon {
+    background-color: #ffffff; /* White color for toggler icon */
+  }
+  
+  /* Navigation link styling */
+  .nav-link {
+    color: #ffffff !important; /* White text color for links */
+  }
+  
+  .nav-link:hover {
+    color: #f0f2f5 !important; /* Lighter color on hover */
+  }
+  
+  /* Active link styling */
+  .nav-link.active {
+    background-color: #3b5998; /* Darker blue for active link */
+  }
+  
+  /* User pic styling */
+  .user-pic {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  /* Dark mode toggle button styling */
+  .dark-mode-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
